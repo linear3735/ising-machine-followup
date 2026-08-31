@@ -1,0 +1,36 @@
+{
+  "100": {
+    "1": {
+      "gain": Infinity,
+      "temp": 1277.5,
+      "momentum": 85.0
+    },
+    "2": {
+      "gain": Infinity,
+      "temp": 1270.0,
+      "momentum": 40.0
+    },
+    "3": {
+      "gain": Infinity,
+      "temp": 970.0,
+      "momentum": 42.5
+    }
+  },
+  "200": {
+    "1": {
+      "gain": Infinity,
+      "temp": 1410.0,
+      "momentum": 80.0
+    },
+    "2": {
+      "gain": Infinity,
+      "temp": 1312.5,
+      "momentum": 35.0
+    },
+    "3": {
+      "gain": 602.5,
+      "temp": 1067.5,
+      "momentum": 25.0
+    }
+  }
+}

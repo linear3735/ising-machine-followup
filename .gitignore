@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.npy
+.Q3650.lp
+Q3568.qplib
+QPLIB_3568.qplib
+*.html
+.DS_Store
