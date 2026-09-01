@@ -34,6 +34,43 @@ DIGCIM = {
 # 优先攻击名单: digCIM 未到 GT 的 6 题
 PRIORITY = [3650, 3693, 3877, 3832, 3838, 3850]
 
+# ============ 口径自校验（2026-09-01 已解决，6/6 通过） ============
+# QPLIB 官方目标 = sense·(½·xᵀQx + bᵀx + q⁰)（½ 因子在二次项上）。
+# 官方 .sol 变量命名 b_k ↔ QPLIB 索引 k−1 ↔ pyqplib 位置 k−2。
+# 校验: 用官方 .sol 赋值经 pyqplib 求值 == objvar 即通过（绝不产出假成绩）。
+SOL_BASE = "https://qplib.zib.de/sol/QPLIB_{}.sol"
+
+
+def parse_sol_file(path):
+    """解析官方 .sol: 首行 objvar, 其余 'b<i> <val>'。返回 (dict[i]=val, objvar)"""
+    sol, objvar = {}, None
+    for ln in open(path):
+        parts = ln.strip().split()
+        if not parts:
+            continue
+        if parts[0] == "objvar":
+            objvar = float(parts[1])
+        else:
+            sol[int(parts[0][1:])] = float(parts[1])
+    return sol, objvar
+
+
+def validate_gt(pid):
+    """下载官方 .sol 并在 pyqplib 下复算 objvar。成功返回 objvar(=GT)，失败抛异常。"""
+    sf = f"QPLIB_{pid}.sol"
+    download(SOL_BASE.format(pid), sf)
+    p = pyqplib.read_problem(f"QPLIB_{pid}.qplib")
+    sol, objvar = parse_sol_file(sf)
+    for shift in (0, -1, -2, -3):          # 命名偏移兜底: 要求精确一致
+        x = np.zeros(p.num_vars)
+        for k, v in sol.items():
+            j = k + shift
+            if 0 <= j < p.num_vars:
+                x[j] = v
+        if abs(float(p.obj.eval(x)) - objvar) < 1e-6:
+            return objvar
+    raise ValueError(f"problem {pid}: official(sol)≠objvar, 口径未对齐, 跳过")
+
 
 def download(url, path):
     ctx = ssl.create_default_context()
@@ -134,12 +171,16 @@ if __name__ == "__main__":
     out = {}
     for pid in pids:
         try:
+            # 第一步: 下载官方 .sol 并自校验口径; 通过才把 objvar 作为 GT
+            gt_val = validate_gt(pid)
+            gt[str(pid)] = gt_val
+            json.dump(gt, open("gt.json", "w"), indent=2)
             r = solve(pid, args.budget)
-            r["GT"] = gt.get(str(pid))
+            r["GT"] = gt_val
+            r["GT已校验"] = True
             r["digCIM论文"] = DIGCIM.get(pid, "?")
-            if r["GT"] is not None:
-                r["我们是否解到GT"] = bool(
-                    max(r["digCIM_best"], r["tabu_best"]) >= r["GT"] - 1e-6)
+            r["我们是否解到GT"] = bool(
+                max(r["digCIM_best"], r["tabu_best"]) >= gt_val - 1e-6)
             out[pid] = r
             print(pid, r, flush=True)
         except Exception as e:
