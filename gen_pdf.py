@@ -74,10 +74,34 @@ S.append(Image("fig_gset.png", width=16 * cm, height=6.1 * cm))
 S.append(Paragraph(
     "Two further negatives, both consistent with your papers: (i) a grid sweep over (T₀, cooling "
     "exponent, steps) found the linear schedule near-optimal — independently confirming your "
-    "parameter search; (ii) a momentum (dSB-style) variant was worse than digCIM on G1–G3, matching "
-    "your Table 9 (dSB only wins on larger instances).", body))
+    "parameter search; (ii) a plain momentum (dSB-style) variant was worse than digCIM on G1–G3, "
+    "matching your Table 9 (dSB only wins on larger instances).", body))
 
-S.append(Paragraph("3. SK model: the four-method comparison (held-out instances)", h1))
+S.append(Paragraph(
+    "3. Gset G1: damped-momentum × digCIM variant (follow-up)", h1))
+S.append(Paragraph(
+    "Motivated by your \"advanced numerical algorithms\" remark in the SM, I combined the momentum "
+    "channel with the digCIM driving term and temperature noise (damped symplectic Euler: "
+    "<i>y ← (y + dt·(a·x − A·sgn(x)))/(1 + dt·γ) + noise, x ← x + dt·y, wall |x|≤1</i>). "
+    "The implicit damping stabilizes the integrator at a step size ~7× larger than Euler (dt = 0.2 "
+    "vs 0.03), so the same optimum can be reached in 2000 steps instead of 5000. Honest numbers, "
+    "64 seeds, G1 (known optimum 11624):", body))
+S.append(T([["recipe", "steps", "dt", "best", "Ps (64 runs)", "TTS (steps)"],
+            ["digCIM (paper recipe)", "5000", "0.03", "11624 ✓", "26.6%", "~74 500"],
+            ["digCIM (same budget)", "2000", "0.03", "11624 ✓", "6.2%", "~133 000"],
+            ["smomentum (γ=3)", "2000", "0.20", "11624 ✓", "23.4%", "~34 500"]],
+           [4.6 * cm, 1.8 * cm, 1.6 * cm, 2.4 * cm, 3.0 * cm, 2.6 * cm]))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "<b>Honest caveat.</b> The gain is real but modest: at an equal 2000-step budget the damped-"
+    "momentum variant reaches 11624 about 3.8× more often than Euler digCIM, and it matches the "
+    "paper's 5000-step success probability with 60% fewer steps (TTS_steps ≈ 2.2× smaller). But "
+    "the stable window is narrow (γ ∈ [3,5], dt ≤ 0.25; dt ≥ 0.3 diverges for some seeds, γ ≥ 8 "
+    "loses success), and the per-seed success is not a clean improvement over the full 5000-step "
+    "recipe. This is consistent with your observation that momentum gains appear mainly on larger "
+    "instances — which is exactly the regime I propose to test next (G11–G21).", body))
+
+S.append(Paragraph("4. SK model: the four-method comparison (held-out instances)", h1))
 S.append(Paragraph(
     "On the SK model (J ~ N(0, 1/N), 3 held-out instances × 8 seeds) I compared gain annealing, "
     "your temperature-annealing schedule, a closed-loop residual policy (a small MLP that adjusts T "
@@ -102,7 +126,7 @@ S.append(Paragraph(
 S.append(Image("fig_compare.png", width=15.6 * cm, height=6.4 * cm))
 S.append(Image("fig_tts.png", width=15.6 * cm, height=5.7 * cm))
 
-S.append(Paragraph("4. Next step: the QUBO-QLIB suite", h1))
+S.append(Paragraph("5. Next step: the QUBO-QLIB suite", h1))
 S.append(Paragraph(
     "I extracted the full 23-problem list and digCIM's per-problem results from your SM Table 8 "
     "(19/23 solved; the six not at global optimum: 3650/3693/3877 at −2, and 3832/3838/3850 at −4). "
@@ -111,7 +135,7 @@ S.append(Paragraph(
     "needs a multi-core server, which I plan to rent. If all six are closed, that would be 23/23 "
     "under your protocol — I will report whatever the runs actually give.", body))
 
-S.append(Paragraph("5. What I would like to discuss", h1))
+S.append(Paragraph("6. What I would like to discuss", h1))
 S.append(Paragraph(
     "① Whether the momentum advantage extends to the effective-gap picture (μ as a schedule driver); "
     "② whether an RL-trained schedule (GRPO-style per-instance advantages) is a sensible direction "
