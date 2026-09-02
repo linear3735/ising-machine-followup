@@ -113,5 +113,25 @@ CPU 有限规模（N≤200）；闭环策略仅在 N=100 训练；TTS 阈值取 
 ## 新增文件
 
 - gset_bench.py（Gset 求解器与对比）、qubo_attack.py（QPLIB 攻击）、
-  G1-G3.dat / QPLIB_3650.qplib / Q3650.sol（公开基准数据）、
-  digcim_closed.py（digCIM 上的闭环 μ 策略训练）
+  G1-G26.dat / QPLIB_3650.qplib / Q3650.sol（公开基准数据）、
+  digcim_closed.py（digCIM 上的闭环 μ 策略训练）、
+  phase2_gset.py / phase2_summary.py（Phase 2 G11-G26 扫参与汇总）、
+  smomentum_fast.py（批量+稀疏+增量局部场的快速 smomentum）、
+  closed_loop_v2.py（GRPO 提速：批量 rollout + Adam，3.0×）、
+  closed_loop_momentum.py（动量动力学闭环训练，实验性）
+
+## 优化实验（2026-09-02，诚实口径）
+
+**smomentum 数值加速（与串行版逐位一致）**：
+- 种子批量化 + 稀疏 matvec + 增量局部场（n-gram 链类比）：G11 2.2×、G1 1.4×、
+  **G22（2000 稠密）13.1×**（30.2s→2.3s，32 种子 2000 步）；下一步 numba JIT 可再 10-50×。
+
+**GRPO 训练提速（N=100, 16 实例, K=12, 60 epochs）**：
+- v2（K 扰动单次批量 rollout + Adam-ES）：**3.0×**（74s→25s），收敛更稳
+  （best −0.7444 vs v1 −0.7435）；150 epochs 预算下 v2 ≈ 62s 完成。
+
+**动量动力学闭环训练（实验性，诚实负面结果）**：
+- 在 SB 式动量动力学上加温度噪声通道（残差 T 控制）训练调度：600 步评估
+  mean −0.666，**不如无噪声动量基线**（3000 步 −0.700）——温度不是 SB 动量
+  的自然控制通道（噪声扰动确定性收敛）；动量的自然控制是增益 a(t) 或阻尼 γ(t)
+  ——即 Phase 3"阻尼退火"方向，温度通道属于 digCIM 家族。
