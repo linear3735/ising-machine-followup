@@ -144,9 +144,18 @@ CPU 有限规模（N≤200）；闭环策略仅在 N=100 训练；TTS 阈值取 
 - 结果（SK N=100 held-out）：none −0.7137 / fixed 每30窗 −0.6991（盲重启伤预算）/
   learned −0.7157 且**学习到 ep60 重启 0 次**——在该基准上"永不重启"确为最优；
   教训与击杀测试同向：退火已好的系统上重启杠杆 ≈ 0；
-- **下一步（未做）**：把草案头移植到 smomentum×Gset（真正的停滞场景：G1 末段
-  振荡锁死、G11-G13/G22 Ps=0），重启动作分 elitist/diverse 两型；diverse 型
-  与 flow 草案器语义一致。
+- **移植 smomentum×Gset 结果（2026-09-02，smomentum_restart.py，规则版）**：
+  固定预算 2000 步，base / fixed(700,1400) / stall 触发 × elitist/diverse 两型，
+  32 种子（修正了 running-best 漏采末段的 bug）：
+  | G1 (11624) | base Ps 19% | fixed_elite 3% | fixed_diverse 0% | stall ≈19% |
+  | G11 (564) | 全部 Ps 0%，fixed 仅 best 550→554 | | |
+  | G22 (13359) | base 13349 | fixed 13307/13289（伤）| stall ≈base | |
+  **机制解释**：smomentum 的末段低 T 冻结期是增益最高时段（最后 100 步贡献
+  巨大）——任何重启都在截断最有价值的步骤；stall 触发几乎不点火（0.1-0.6 次/种子，
+  说明 best 一直在改进）。**重启/草案头在全部已测设置（SK 闭环、Gset smomentum）
+  均为零或负收益**——预算应投入单条充分退火的轨迹或多种子，而非重启；
+  草案价值只剩跨实例摊销一条路（QPLIB 端局），且须在 SA/PT 类有廉价接受步的
+  采样器上做（IsingFormer 的主场），而非 CIM 注入。
 
 **两阶段协议（全退火 → 精修 best，2026-09-02，two_stage_test.py）**：
 - 机制：全退火末段动量未沉降（T→0 时仍在振荡）→ 从 best 终态做短精修常能继续深化；
