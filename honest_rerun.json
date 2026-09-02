@@ -1,0 +1,943 @@
+{
+  "gamma_star": 1.0,
+  "gscan": {
+    "0.0": [
+      -0.6898185257682552,
+      -0.7187227575187767
+    ],
+    "0.1": [
+      -0.6974706942809616,
+      -0.7209969121247957
+    ],
+    "0.3": [
+      -0.7022791527360972,
+      -0.7209969121247957
+    ],
+    "0.5": [
+      -0.7006711333012154,
+      -0.7209969121247957
+    ],
+    "1.0": [
+      -0.7032822757953373,
+      -0.7209969121247957
+    ]
+  },
+  "results": {
+    "100": {
+      "102": {
+        "tts": {
+          "gain": {
+            "-0.68": [
+              null,
+              400,
+              360,
+              400,
+              1580,
+              560,
+              300,
+              260
+            ],
+            "-0.7": [
+              null,
+              720,
+              460,
+              520,
+              null,
+              null,
+              300,
+              420
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              1080,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "temp": {
+            "-0.68": [
+              240,
+              780,
+              880,
+              1320,
+              1640,
+              840,
+              440,
+              820
+            ],
+            "-0.7": [
+              1720,
+              1700,
+              1140,
+              1840,
+              1880,
+              1720,
+              1020,
+              1280
+            ],
+            "-0.72": [
+              2100,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "momentum": {
+            "-0.68": [
+              540,
+              240,
+              220,
+              360,
+              null,
+              null,
+              200,
+              220
+            ],
+            "-0.7": [
+              null,
+              240,
+              260,
+              460,
+              null,
+              null,
+              240,
+              280
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              620,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        "fin": {
+          "gain": [
+            -0.7024416462309043,
+            -0.7316592795637721
+          ],
+          "temp": [
+            -0.7152844032166082,
+            -0.725560985568764
+          ],
+          "momentum": [
+            -0.6932082768918707,
+            -0.7316592795637721
+          ]
+        }
+      },
+      "103": {
+        "tts": {
+          "gain": {
+            "-0.68": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.7": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "temp": {
+            "-0.68": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.7": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "momentum": {
+            "-0.68": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.7": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        "fin": {
+          "gain": [
+            -0.6341662014997111,
+            -0.6601308430675609
+          ],
+          "temp": [
+            -0.6434689533699961,
+            -0.6541353619493472
+          ],
+          "momentum": [
+            -0.6375905623557385,
+            -0.6666293014242332
+          ]
+        }
+      },
+      "104": {
+        "tts": {
+          "gain": {
+            "-0.68": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              720,
+              null,
+              null
+            ],
+            "-0.7": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "temp": {
+            "-0.68": [
+              null,
+              960,
+              2840,
+              1900,
+              null,
+              900,
+              820,
+              null
+            ],
+            "-0.7": [
+              null,
+              1100,
+              null,
+              2000,
+              null,
+              1040,
+              1420,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              2940,
+              null,
+              1600,
+              null,
+              null
+            ]
+          },
+          "momentum": {
+            "-0.68": [
+              320,
+              300,
+              460,
+              null,
+              380,
+              740,
+              400,
+              280
+            ],
+            "-0.7": [
+              320,
+              380,
+              580,
+              null,
+              null,
+              null,
+              460,
+              340
+            ],
+            "-0.72": [
+              380,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              540
+            ]
+          }
+        },
+        "fin": {
+          "gain": [
+            -0.6430594793897142,
+            -0.6929084529939687
+          ],
+          "temp": [
+            -0.6944509566797354,
+            -0.7290251940476257
+          ],
+          "momentum": [
+            -0.7032166482783648,
+            -0.7291312173823923
+          ]
+        }
+      },
+      "105": {
+        "tts": {
+          "gain": {
+            "-0.68": [
+              null,
+              1160,
+              420,
+              500,
+              1320,
+              null,
+              160,
+              null
+            ],
+            "-0.7": [
+              null,
+              1960,
+              null,
+              580,
+              null,
+              null,
+              260,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              680,
+              null,
+              null,
+              320,
+              null
+            ]
+          },
+          "temp": {
+            "-0.68": [
+              780,
+              940,
+              560,
+              null,
+              780,
+              1260,
+              1180,
+              580
+            ],
+            "-0.7": [
+              1040,
+              940,
+              660,
+              null,
+              1020,
+              1900,
+              1220,
+              1760
+            ],
+            "-0.72": [
+              1160,
+              1700,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "momentum": {
+            "-0.68": [
+              520,
+              null,
+              700,
+              280,
+              580,
+              null,
+              380,
+              null
+            ],
+            "-0.7": [
+              null,
+              null,
+              null,
+              320,
+              null,
+              null,
+              380,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              320,
+              null,
+              null,
+              540,
+              null
+            ]
+          }
+        },
+        "fin": {
+          "gain": [
+            -0.6908699730573566,
+            -0.7343509073329119
+          ],
+          "temp": [
+            -0.7104337985550602,
+            -0.7252673641010068
+          ],
+          "momentum": [
+            -0.6879531150612768,
+            -0.7343509073329119
+          ]
+        }
+      }
+    },
+    "200": {
+      "102": {
+        "tts": {
+          "gain": {
+            "-0.7": [
+              540,
+              null,
+              null,
+              null,
+              2100,
+              440,
+              null,
+              700
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              1560,
+              null,
+              1020
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "temp": {
+            "-0.7": [
+              1960,
+              1340,
+              1020,
+              1600,
+              1600,
+              680,
+              1720,
+              null
+            ],
+            "-0.72": [
+              null,
+              1740,
+              2320,
+              null,
+              1680,
+              1720,
+              2300,
+              null
+            ],
+            "-0.74": [
+              null,
+              2840,
+              null,
+              null,
+              2280,
+              null,
+              null,
+              null
+            ]
+          },
+          "momentum": {
+            "-0.7": [
+              null,
+              540,
+              480,
+              null,
+              420,
+              540,
+              640,
+              320
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              400
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        "fin": {
+          "gain": [
+            -0.6998877787512292,
+            -0.7310419565940407
+          ],
+          "temp": [
+            -0.7243274414323285,
+            -0.7468361796858828
+          ],
+          "momentum": [
+            -0.7087998788811796,
+            -0.7334682862580314
+          ]
+        }
+      },
+      "103": {
+        "tts": {
+          "gain": {
+            "-0.7": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              820,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "temp": {
+            "-0.7": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "momentum": {
+            "-0.7": [
+              null,
+              600,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        "fin": {
+          "gain": [
+            -0.6790726232144497,
+            -0.7122258815524848
+          ],
+          "temp": [
+            -0.6828253634561017,
+            -0.6916140732146271
+          ],
+          "momentum": [
+            -0.6919882807715906,
+            -0.716052188290439
+          ]
+        }
+      },
+      "104": {
+        "tts": {
+          "gain": {
+            "-0.7": [
+              null,
+              null,
+              null,
+              2600,
+              null,
+              null,
+              840,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "temp": {
+            "-0.7": [
+              null,
+              2560,
+              2600,
+              2160,
+              null,
+              2620,
+              null,
+              1840
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "momentum": {
+            "-0.7": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        "fin": {
+          "gain": [
+            -0.6751991472388825,
+            -0.7099046035899731
+          ],
+          "temp": [
+            -0.703702384192135,
+            -0.7146838614181026
+          ],
+          "momentum": [
+            -0.6851515010150913,
+            -0.6990263850897201
+          ]
+        }
+      },
+      "105": {
+        "tts": {
+          "gain": {
+            "-0.7": [
+              580,
+              1020,
+              null,
+              null,
+              null,
+              1740,
+              680,
+              800
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              1040,
+              null
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "temp": {
+            "-0.7": [
+              1500,
+              1720,
+              1760,
+              null,
+              1160,
+              1720,
+              1060,
+              null
+            ],
+            "-0.72": [
+              2240,
+              2360,
+              null,
+              null,
+              1420,
+              null,
+              2000,
+              null
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          "momentum": {
+            "-0.7": [
+              null,
+              null,
+              380,
+              null,
+              null,
+              null,
+              660,
+              400
+            ],
+            "-0.72": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              900
+            ],
+            "-0.74": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        },
+        "fin": {
+          "gain": [
+            -0.7055319693479366,
+            -0.7288035982723489
+          ],
+          "temp": [
+            -0.715612242735155,
+            -0.738373913604475
+          ],
+          "momentum": [
+            -0.698404695075776,
+            -0.7258832410284803
+          ]
+        }
+      }
+    }
+  }
+}
