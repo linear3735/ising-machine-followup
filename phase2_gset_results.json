@@ -1,0 +1,2338 @@
+{
+  "G11": {
+    "n": 800,
+    "edges": 1600,
+    "known": 564,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 552,
+      "mean": 543.4,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 552,
+      "mean": 543.4,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 548,
+          "mean": 540.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 548,
+          "mean": 540.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 550,
+          "mean": 541.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 550,
+          "mean": 541.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 546,
+          "mean": 538.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 546,
+          "mean": 538.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 552,
+          "mean": 538.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 552,
+          "mean": 538.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 548,
+          "mean": 538.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 548,
+          "mean": 538.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 546,
+          "mean": 536.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 546,
+          "mean": 536.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.1
+  },
+  "G12": {
+    "n": 800,
+    "edges": 1600,
+    "known": 556,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 544,
+      "mean": 537.8,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 544,
+      "mean": 537.8,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 546,
+          "mean": 536.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 546,
+          "mean": 536.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 542,
+          "mean": 535.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 542,
+          "mean": 535.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 542,
+          "mean": 533.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 542,
+          "mean": 533.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 544,
+          "mean": 534.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 544,
+          "mean": 534.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 544,
+          "mean": 533.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 544,
+          "mean": 533.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 544,
+          "mean": 532.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 544,
+          "mean": 532.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.2
+  },
+  "G13": {
+    "n": 800,
+    "edges": 1600,
+    "known": 582,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 570,
+      "mean": 564.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 570,
+      "mean": 564.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 574,
+          "mean": 560.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 574,
+          "mean": 560.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 570,
+          "mean": 560.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 570,
+          "mean": 560.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 572,
+          "mean": 560.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 572,
+          "mean": 560.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 570,
+          "mean": 560.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 570,
+          "mean": 560.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 570,
+          "mean": 559.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 570,
+          "mean": 559.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 574,
+          "mean": 558.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 574,
+          "mean": 558.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.3
+  },
+  "G14": {
+    "n": 800,
+    "edges": 4694,
+    "known": 3064,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 3046,
+      "mean": 3037.1,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 3046,
+      "mean": 3037.1,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3051,
+          "mean": 3033.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 3051,
+          "mean": 3033.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3048,
+          "mean": 3030.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 3048,
+          "mean": 3030.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3048,
+          "mean": 3032.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 3048,
+          "mean": 3032.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3044,
+          "mean": 3033.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 3044,
+          "mean": 3033.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3045,
+          "mean": 3032.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 3045,
+          "mean": 3032.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3046,
+          "mean": 3031.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 3046,
+          "mean": 3031.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.9
+  },
+  "G15": {
+    "n": 800,
+    "edges": 4661,
+    "known": 3050,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 3038,
+      "mean": 3021.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 3038,
+      "mean": 3021.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3033,
+          "mean": 3022.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 3033,
+          "mean": 3022.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3029,
+          "mean": 3017.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 3029,
+          "mean": 3017.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3036,
+          "mean": 3019.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 3036,
+          "mean": 3019.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3033,
+          "mean": 3020.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 3033,
+          "mean": 3020.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3030,
+          "mean": 3017.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 3030,
+          "mean": 3017.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3027,
+          "mean": 3018.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 3027,
+          "mean": 3018.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.7
+  },
+  "G16": {
+    "n": 800,
+    "edges": 4672,
+    "known": 3052,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 3037,
+      "mean": 3024.1,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 3037,
+      "mean": 3024.1,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3037,
+          "mean": 3021.5,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 3037,
+          "mean": 3021.5,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3034,
+          "mean": 3021.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 3034,
+          "mean": 3021.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3031,
+          "mean": 3018.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 3031,
+          "mean": 3018.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3034,
+          "mean": 3021.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 3034,
+          "mean": 3021.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3035,
+          "mean": 3017.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 3035,
+          "mean": 3017.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3034,
+          "mean": 3018.5,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 3034,
+          "mean": 3018.5,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.8
+  },
+  "G17": {
+    "n": 800,
+    "edges": 4667,
+    "known": 3047,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 3035,
+      "mean": 3019.6,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 3035,
+      "mean": 3019.6,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3033,
+          "mean": 3019.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 3033,
+          "mean": 3019.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3029,
+          "mean": 3016.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 3029,
+          "mean": 3016.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3031,
+          "mean": 3015.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 3031,
+          "mean": 3015.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3030,
+          "mean": 3012.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 3030,
+          "mean": 3012.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3027,
+          "mean": 3014.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 3027,
+          "mean": 3014.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 3031,
+          "mean": 3015.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 3031,
+          "mean": 3015.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.6
+  },
+  "G18": {
+    "n": 800,
+    "edges": 4694,
+    "known": 992,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 985,
+      "mean": 973.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 985,
+      "mean": 973.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 987,
+          "mean": 974.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 987,
+          "mean": 974.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 987,
+          "mean": 973.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 987,
+          "mean": 973.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 988,
+          "mean": 972.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 988,
+          "mean": 972.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 987,
+          "mean": 973.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 987,
+          "mean": 973.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 988,
+          "mean": 973.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 988,
+          "mean": 973.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 986,
+          "mean": 970.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 986,
+          "mean": 970.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.7
+  },
+  "G19": {
+    "n": 800,
+    "edges": 4661,
+    "known": 906,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 903,
+      "mean": 883.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 903,
+      "mean": 883.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 904,
+          "mean": 885.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 904,
+          "mean": 885.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 903,
+          "mean": 884.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 903,
+          "mean": 884.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 898,
+          "mean": 883.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 898,
+          "mean": 883.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 900,
+          "mean": 882.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 900,
+          "mean": 882.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 900,
+          "mean": 884.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 900,
+          "mean": 884.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 897,
+          "mean": 882.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 897,
+          "mean": 882.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.7
+  },
+  "G20": {
+    "n": 800,
+    "edges": 4672,
+    "known": 941,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 939,
+      "mean": 925.2,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 939,
+      "mean": 925.2,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 939,
+          "mean": 927.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 939,
+          "mean": 927.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 940,
+          "mean": 929.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 940,
+          "mean": 929.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 941,
+          "mean": 928.8,
+          "ps": 0.0312,
+          "bad": 0.0,
+          "tts_steps": 290101
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 941,
+          "mean": 928.8,
+          "ps": 0.0312,
+          "bad": 0.0,
+          "tts_steps": 290101
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 940,
+          "mean": 926.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 940,
+          "mean": 926.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 939,
+          "mean": 924.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 939,
+          "mean": 924.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 939,
+          "mean": 924.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 939,
+          "mean": 924.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.7
+  },
+  "G21": {
+    "n": 800,
+    "edges": 4667,
+    "known": 931,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 924,
+      "mean": 913.5,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 924,
+      "mean": 913.5,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 922,
+          "mean": 909.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 922,
+          "mean": 909.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 923,
+          "mean": 912.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 923,
+          "mean": 912.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 925,
+          "mean": 912.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 925,
+          "mean": 912.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 922,
+          "mean": 909.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 922,
+          "mean": 909.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 924,
+          "mean": 909.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 924,
+          "mean": 909.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 925,
+          "mean": 910.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 925,
+          "mean": 910.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 12.7
+  },
+  "G22": {
+    "n": 2000,
+    "edges": 19990,
+    "known": 13359,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 13348,
+      "mean": 13316.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 13348,
+      "mean": 13316.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13353,
+          "mean": 13317.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13353,
+          "mean": 13317.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13352,
+          "mean": 13323.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13352,
+          "mean": 13323.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13352,
+          "mean": 13316.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13352,
+          "mean": 13316.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13353,
+          "mean": 13319.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13353,
+          "mean": 13319.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13348,
+          "mean": 13311.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13348,
+          "mean": 13311.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13351,
+          "mean": 13307.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13351,
+          "mean": 13307.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 230.9
+  },
+  "G23": {
+    "n": 2000,
+    "edges": 19990,
+    "known": 13344,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 13334,
+      "mean": 13316.0,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 13334,
+      "mean": 13316.0,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13334,
+          "mean": 13309.5,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13334,
+          "mean": 13309.5,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13330,
+          "mean": 13308.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13330,
+          "mean": 13308.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13329,
+          "mean": 13312.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13329,
+          "mean": 13312.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13326,
+          "mean": 13306.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13326,
+          "mean": 13306.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13321,
+          "mean": 13308.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13321,
+          "mean": 13308.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13316,
+          "mean": 13304.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13316,
+          "mean": 13304.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 231.3
+  },
+  "G24": {
+    "n": 2000,
+    "edges": 19990,
+    "known": 13337,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 13327,
+      "mean": 13307.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 13327,
+      "mean": 13307.7,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13316,
+          "mean": 13300.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13316,
+          "mean": 13300.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13317,
+          "mean": 13299.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13317,
+          "mean": 13299.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13322,
+          "mean": 13300.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13322,
+          "mean": 13300.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13321,
+          "mean": 13296.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13321,
+          "mean": 13296.6,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13314,
+          "mean": 13293.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13314,
+          "mean": 13293.1,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13325,
+          "mean": 13294.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13325,
+          "mean": 13294.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 227.9
+  },
+  "G25": {
+    "n": 2000,
+    "edges": 19990,
+    "known": 13340,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 13331,
+      "mean": 13306.2,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 13331,
+      "mean": 13306.2,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13324,
+          "mean": 13301.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13324,
+          "mean": 13301.4,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13322,
+          "mean": 13298.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13322,
+          "mean": 13298.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13322,
+          "mean": 13297.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13322,
+          "mean": 13297.2,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13315,
+          "mean": 13296.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13315,
+          "mean": 13296.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13331,
+          "mean": 13297.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13331,
+          "mean": 13297.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13318,
+          "mean": 13293.5,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13318,
+          "mean": 13293.5,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 229.6
+  },
+  "G26": {
+    "n": 2000,
+    "edges": 19990,
+    "known": 13328,
+    "digCIM_final": {
+      "name": "digCIM(\u8bba\u6587\u914d\u65b95000\u6b65)",
+      "steps": 5000,
+      "best": 13306,
+      "mean": 13293.4,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "digCIM_best": {
+      "name": "digCIM(running-best)",
+      "steps": 5000,
+      "best": 13306,
+      "mean": 13293.4,
+      "ps": 0.0,
+      "bad": 0.0,
+      "tts_steps": null
+    },
+    "smomentum": {
+      "g3.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13311,
+          "mean": 13287.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13311,
+          "mean": 13287.8,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13306,
+          "mean": 13287.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13306,
+          "mean": 13287.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g3.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=3.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13310,
+          "mean": 13286.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=3.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13310,
+          "mean": 13286.7,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.2": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.2 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13310,
+          "mean": 13287.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.2 (running-best)",
+          "steps": 2000,
+          "best": 13310,
+          "mean": 13287.0,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.25": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.25 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13314,
+          "mean": 13286.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.25 (running-best)",
+          "steps": 2000,
+          "best": 13314,
+          "mean": 13286.9,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      },
+      "g5.0_dt0.3": {
+        "final": {
+          "name": "sm \u03b3=5.0 dt=0.3 (\u7ec8\u6001)",
+          "steps": 2000,
+          "best": 13309,
+          "mean": 13281.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        },
+        "best": {
+          "name": "sm \u03b3=5.0 dt=0.3 (running-best)",
+          "steps": 2000,
+          "best": 13309,
+          "mean": 13281.3,
+          "ps": 0.0,
+          "bad": 0.0,
+          "tts_steps": null
+        }
+      }
+    },
+    "\u8017\u65f6s": 229.8
+  }
+}
